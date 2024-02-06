@@ -11,14 +11,14 @@ describe("One contract", function () {
     // console.log("Contract Address is %s", ca);
     // expect(await hardhatToken.totalSupply()).to.equal(ownerBalance);
   });
-  it("GetBlockNumber", async function name() {
-    const number = await ethers.provider.getBlockNumber();
-    console.log("BlockNumber is %s", number);
-    const block = await ethers.provider.getBlock(number);
-    console.log(block);
-  });
-  it("getSigners", async function name() {
-    const signers = await ethers.getSigners();
-    console.log(signers[0], "dfd");
-  });
+  // it("GetBlockNumber", async function name() {
+  //   const number = await ethers.provider.getBlockNumber();
+  //   console.log("BlockNumber is %s", number);
+  //   const block = await ethers.provider.getBlock(number);
+  //   console.log(block);
+  // });
+  // it("getSigners", async function name() {
+  //   const signers = await ethers.getSigners();
+  //   console.log(signers[0], "dfd");
+  // });
 });

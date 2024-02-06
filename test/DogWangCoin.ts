@@ -27,11 +27,11 @@ describe("DogWangCoin contract", function () {
   let address3;
   let TokenContract = null;
   let Token = null;
-  beforeEach(async function () {
-    TokenContract = await ethers.getContractFactory("DogWangCoin");
-    [owner, address1, address2, address3] = await ethers.getSigners();
-    Token = await TokenContract.deploy();
-  });
+  // beforeEach(async function () {
+  //   TokenContract = await ethers.getContractFactory("DogWangCoin");
+  //   [owner, address1, address2, address3] = await ethers.getSigners();
+  //   Token = await TokenContract.deploy();
+  // });
   describe("Deployment", function () {
     // it("总发行量等于合约主人的余额", async function () {
     //   const balance = await Token?.balanceOf(owner.address);
